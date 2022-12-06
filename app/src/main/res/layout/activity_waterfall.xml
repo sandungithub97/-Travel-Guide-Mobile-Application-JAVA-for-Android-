@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".waterfall"
+    android:background="@drawable/backgrnd1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Natural WaterFalls In Sri Lanka"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Bambarakanda"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_toLeftOf="@+id/image1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="This is the tallest waterfall in Sri Lanka! The water plummets from 263 meters over the base pool. You can take the path from Kalupahana by foot, which is about an hour hike, or opt for a tuk-tuk. Check with the ticket office if it is okay to climb to the very top - when conditions are too slippery, visitors may be at risk for falling over the falls!"
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image1"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text1"
+                android:src="@drawable/babarakanda"
+                android:onClick="babara"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Baker Falls"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:layout_toLeftOf="@+id/image2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="This waterfall is named after the famous explorer, Sir Samual Baker. Easy to visit, it is located in Horton Plains National Park on a tributary of the Belihul Oya. Visiting the falls involves a 9km hike on a man built stone road, so be prepared for a hilly ascent. There are two trails to the falls. "
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image2"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text2"
+                android:src="@drawable/bakers"
+                android:onClick="baker"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ravana Falls "
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text3"
+                android:layout_toLeftOf="@+id/image3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="A towering 25 meters in height, this waterfall is one of the largest tourist attractions in the Ella region. It is connected to the famous Indian Epic in which King Ravana hid Princess Sita in the cave behind the falls after abducting her from India. "
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image3"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text3"
+                android:src="@drawable/ravana"
+                android:onClick="ravana"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Dunhinda Falls "
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text4"
+                android:layout_toLeftOf="@+id/image4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Known for its smoky-looking misty spray, “Dun in Sinhala” means mist or smoke. It is also known as bridal falls for the mist’s resemblance to a bridal veil. There are also a few legends behind Dunhinda Falls. One tells of a fish wearing a golden earring that swims over the treasure of the Prince of Uva. "
+                />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image4"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text4"
+                android:src="@drawable/dunhida"
+                android:onClick="dunhida"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Devon Falls "
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:layout_toLeftOf="@+id/image5"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Known as Sri Lanka’s veil of the vale. Devon Falls can be seen from the main road, the 1km walk through the plantation to the falls is well worth it! You can even stop at the Mlensa Tea Castle to admire the view while you enjoy a cup of authentic tea. "
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image5"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text5"
+                android:src="@drawable/devon"
+                android:onClick="devon"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Diyaluma Falls"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text6"
+                android:layout_toLeftOf="@+id/image6"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="A staggering 220 meters, the second tallest falls in the country are named “Diyaluma” which means “rapid flow of water” in Sinhalese. From Makaldenya Junction on Poonagala Road, it is a 30-minute downhill hike to the Upper Falls, and then a 10-minute walk to Diyaluma falls. "
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image6"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text6"
+                android:src="@drawable/diyaluma"
+                android:onClick="diyaluma"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Bomburu Falls  "
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text7"
+                android:layout_toLeftOf="@+id/image7"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="This is the widest waterfall in Sri Lanka, it is a combination of several waterfalls linked together. Getting to this waterfall involves a mini hike. Avoid bathing in the base pool unless you know the opening times of the dam above, so they do not interfere with your visit. "
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image7"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text7"
+                android:src="@drawable/bomburu"
+                android:onClick="bomburu"
+                />
+        </RelativeLayout>
+            </LinearLayout>
+</ScrollView>

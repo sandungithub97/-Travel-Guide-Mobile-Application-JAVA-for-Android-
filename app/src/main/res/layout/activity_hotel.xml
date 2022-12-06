@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotel"
+    android:background="@drawable/backgrnd1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Natural Hotels In Sri Lanka"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Abode, Knuckles Mt. Range"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_toLeftOf="@+id/image1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Abode is a responsibly managed and creative community tourism programme. Located in the heart of the knuckles mountains, the project aims to support and preserve a village community that has shrunk to just six people, who can no longer permanently inhabit the site. Staying in a remote village with no roads and accessible only by trekking for three hours, you will live amongst the remaining indigenous inhabitants."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image1"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text1"
+                android:src="@drawable/abode"
+                android:onClick="abode"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ahas Pokuna - BelihulOya"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:layout_toLeftOf="@+id/image2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The bushwalking safari is a new concept to Sri Lanka as most safaris are done in enclosed national parks, where it is essential to keep visitors in their jeeps. Yet several areas of the island, unaffected by human settlement, are an absolute feast for the senses and with a sense of wildlife all around. "
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image2"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text2"
+                android:src="@drawable/ahas"
+                android:onClick="ahas"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ashburnham Estate, Elkaduwa"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text3"
+                android:layout_toLeftOf="@+id/image3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="This 1930's former tea planter’s house on the western slope of the Knuckles foothills couldn’t be better placed for enjoying spectacular sunsets and panoramic views of Sri Lankan tea country."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image3"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text3"
+                android:src="@drawable/ashburnham"
+                android:onClick="ash"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Back of Beyond Pidurangala"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text4"
+                android:layout_toLeftOf="@+id/image4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="In a dense forest that probably hasn't been touched for hundreds of years lies this unique set of bungalows and cottages. Pidurangala is one of the most unusual and magical properties in Sri Lanka.
+
+The main bungalow has three large bedrooms with en-suite semi-outdoor bathrooms. "
+                />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image4"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text4"
+                android:src="@drawable/back"
+                android:onClick="back"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Bar Reef Resort Kalpitiya"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:layout_toLeftOf="@+id/image5"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Situated on 2km of beautiful beach on the Kalpitiya coast, this hotel has a peaceful and relaxing atmosphere that is perfect for unwinding after a site seeing a tour of Sri Lanka. "
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image5"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text5"
+                android:src="@drawable/bar"
+                android:onClick="bar"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Borderlands Kitulgala"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text6"
+                android:layout_toLeftOf="@+id/image6"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Overlooking the beautiful Kelani River lies the Borderlands River Base Camp - a fantastically friendly and picturesque spot right in the centre of Sri Lanka’s adrenalin capital, Kithugala."
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image6"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text6"
+                android:src="@drawable/border"
+                android:onClick="border"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Boulder Garden, Sinharaja"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text7"
+                android:layout_toLeftOf="@+id/image7"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Nature enthusiasts will love the concept behind the Boulder Garden. Lovingly custom-built into the jagged boulders and mammoth caves of the Sinharaja Rainforest, this hotel makes the most of the jungle’s cavernous spaces."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image7"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text7"
+                android:src="@drawable/boulder"
+                android:onClick="boul"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Kalus Hideaway, Uda Walawe"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text8"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text8"
+                android:layout_toLeftOf="@+id/image8"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Kalu’s Hideaway is a unique jungle retreat, owned by Sri Lankan World Cup cricketing legend Romesh Kaluwitharana. Lucky guests might even get to meet the man himself, but even if you don’t, this eco-friendly hideaway is perfect for safari enthusiasts, outdoor lovers, and action travellers."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image8"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text8"
+                android:src="@drawable/kalus"
+                android:onClick="kalus"
+                />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

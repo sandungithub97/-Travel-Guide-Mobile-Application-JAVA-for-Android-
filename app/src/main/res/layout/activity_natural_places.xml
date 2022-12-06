@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".natural_places"
+    android:background="@drawable/backgrnd1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Natural Places In Sri Lanka"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:onClick="sinhara"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sinharaja"
+                android:drawableLeft="@drawable/right"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_toLeftOf="@+id/image1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. It is of international significance and has been designated a Biosphere Reserve and World Heritage Site by UNESCO.[1]
+
+According to International Union for Conservation of Nature (IUCN), Sinharaja is the country's last viable area of primary tropical rainforest. More than 60% of the trees are endemic and many of them are considered rare."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image1"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text1"
+                android:src="@drawable/sinharaja"
+                android:onClick="sinha"
+                android:transitionName="trans1"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:drawableLeft="@drawable/right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ella"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:onClick="ella1"
+                android:id="@+id/text2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:layout_toLeftOf="@+id/image2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Ella has all the best parts of Sri Lanka rolled into one: beautiful jungle mountains, rolling tea plantations, and epic waterfalls. As one of the biggest tea producers, travelers can look forward to spending their days among the greenest surroundings, enjoying the views from hilltop houses and adventurous hiking trails."
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image2"
+
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text2"
+                android:src="@drawable/ella"
+                android:onClick="ella"
+                android:transitionName="trans_ella"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:drawableLeft="@drawable/right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="NuwaraEliya"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text3"
+                android:onClick="nuwaraeli1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text3"
+                android:layout_toLeftOf="@+id/image3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The town of Nuwara Eliya is mostly famous for the tea production in Sri Lanka. Apart from the tea plantations; Horton Plains National Park, Gregory Lake, and Sita Temple are some of the popular places to see in the town."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image3"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text3"
+                android:src="@drawable/nuwaraeliya1"
+                android:onClick="nuwaraeli"
+                android:transitionName="trans_nuwaraeli"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:drawableLeft="@drawable/right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Yaala Park"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:onClick="yaala1"
+                android:textStyle="bold"
+                android:id="@+id/text4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text4"
+                android:layout_toLeftOf="@+id/image4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="If you are traveling on the Buttala-Kataragama Road, watch out for wild animals, especially elephants. This road literally runs through the park and some elephants are in the habit of soliciting fruits from motorists by standing across the road, allowing passage once appeased. However, elephants will give way when a vehicle approaches and are known to be well-mannered. "
+                />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image4"
+                android:layout_alignParentRight="true"
+                android:layout_height="150dp"
+                android:layout_below="@+id/text4"
+                android:src="@drawable/yaala1"
+                android:onClick="yaala"
+                android:transitionName="trans_yaala"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:drawableLeft="@drawable/right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Horton Plains"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:onClick="horton1"
+                android:textStyle="bold"
+                android:id="@+id/text5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:layout_toLeftOf="@+id/image5"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Many pools and waterfalls can be seen in the park, and Horton Plains is considered the most important watershed in Sri Lanka. The Horton Plains are the headwaters of important rivers such as the Mahaweli, Kelani, and Walawe. The plains also feeds Belihul Oya, Agra Oya, Kiriketi Oya, Uma Oya, and Bogawantalawa Oya."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image5"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text5"
+                android:src="@drawable/horton1"
+                android:onClick="horton"
+                android:transitionName="trans_horton"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:drawableLeft="@drawable/right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sembuwattta"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text6"
+                android:onClick="sembu1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text6"
+                android:layout_toLeftOf="@+id/image6"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Sembuwatta Lake is a tourist attraction situated at Elkaduwa in the Matale District of Sri Lanka, adjacent to the Campbell's Lane Forest Reserve. Sembuwatta Lake is a man-made lake created from natural spring water. Alongside the lake is a natural swimming pool. Sembuwatta Lake is believed to be 9 m to 12 m deep"
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image6"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text6"
+                android:src="@drawable/sembu1"
+                android:onClick="sembu"
+                android:transitionName="trans_sembu"
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd1"
+    tools:context=".NuwaraEliya">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:textAlignment="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nuwara Eliya"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+        <ImageView
+            android:id="@+id/sin"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/nuwaraeliya"
+            android:layout_margin="10dp"
+
+            android:transitionName="trans_nuwaraeli"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/nuwaraeliya"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="#VisitSriLanka"
+            app:layout_constraintTop_toBottomOf="@+id/signUpText"
+            android:drawableEnd="@drawable/sl"/>
+    </LinearLayout>
+
+</ScrollView>

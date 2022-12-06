@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".instructions"
+    android:background="@drawable/backgrnd1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Instructions And Rules"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/para1"
+
+                android:text="When giving a tour there may be rules and safety precautions that you need to explain. It is best if you memorize a speech rather than read from a card. People will pay more attention to you and understand you more clearly if you look into their eyes as you speak. After you have explained the rules and safety precautions make sure that guests have understood you, by asking, Are there any questions about this? or Is everyone clear on the rules?. Also, tourists will appreciate any helpful advice you can give them, such as where to exchange their money, what types of transportation to use, and how to obey the traffic rules. Finally, if there are any customs or matters of etiquette that you think tourists should be aware of, this is a good time to let them know."
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/para1"
+                android:id="@+id/head"
+                android:text="Tour Guide and Explaining rules"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/head"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="&#8226; You are strictly forbidden from taking photographs inside the museum." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/head"
+                android:id="@+id/para2"
+                android:layout_margin="10dp"
+                android:text="&#8226;" />
+
+            <TextView
+                android:id="@+id/para3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="&#8226; Please keep your seatbelts fastened at all times, I ask that you keep your hands inside the train." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para3"
+                android:id="@+id/para4"
+                android:layout_margin="10dp"
+                android:text="&#8226;Please do not feed the animals and do not recommend swimming, if the water is very rough." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/para4"
+                android:id="@+id/head2"
+                android:text="Explaining etiquette and customs"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/head2"
+                android:layout_margin="10dp"
+                android:id="@+id/para5"
+                android:text="&#8226; In this region we bow rather than shake hands during a first meeting. andTo indicate that you want to get on or off the bus simply wave your hand at the driver." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/para5"
+                android:layout_margin="10dp"
+                android:text="&#8226; Though the all-inclusive includes tips for the servers, it does not include tips for the bellboy." />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mountain"
+    android:background="@drawable/backgrnd1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Mountains In Sri Lanka"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sigiriya"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textsigiri"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textsigiri"
+                android:layout_toLeftOf="@+id/sigiri"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. In 477 AD, Kashyapa I, the king’s son by a non-royal consort, seized the throne from King Dhatusena, following a coup  assisted by Migara." />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/sigiri"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/textsigiri"
+                android:src="@drawable/sigiriya"
+                android:onClick="sigiriya"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Piduruthalagala"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textpiduru"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textpiduru"
+                android:layout_toLeftOf="@+id/piduru"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Pidurutalagala Mountain in Sri Lanka (literally translating to Straw Plateau Rock), which is also called Mount Pedro in English is the tallest mountain on the island and situated in the Central Province, north – northeast to the town of Nuwara Eliya. It is also the only ultra prominent peak on the island, and one of only 1515 ultra prominent peaks around the world."/>
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/piduru"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/textpiduru"
+                android:src="@drawable/piduru"
+                android:onClick="piduru"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Knuckles"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textknuc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textknuc"
+                android:layout_toLeftOf="@+id/knuckle"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Knuckles Mountain Range in the central province of Sri Lanka, lies in the districts of Matale and Kandy. It gets its name since its peaks resemble the knuckles of clenched fists when viewed from certain locations in the Kandy district. This name is given to the mountain range by British surveyors. "
+               />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/knuckle"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/textknuc"
+                android:src="@drawable/knuckle"
+                android:onClick="knuck"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sri Padha"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textsri"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textsri"
+                android:layout_toLeftOf="@+id/sri"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="It is an important pilgrimage site, especially for Buddhists. Pilgrims walk up the mountain, following a variety of difficult routes up thousands of steps. The journey takes several hours at least.
+The mountain is most often scaled from December to May.  "
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/sri"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/textsri"
+                android:src="@drawable/sri_pada"
+                android:onClick="sripada"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Hakgala"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/texthakgala"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/texthakgala"
+                android:layout_toLeftOf="@+id/hakgala"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Hakgala is a mountain situated in the Nuwara Eliya district of Sri Lanka at 2,169 m above mean sea level, most parts of the mountain are covered with forest belonging to Hakgala Strict Nature Reserve. Hakgala Botanical Garden is situated on the northeastern slope of the Hakgala Mountain. "
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/hakgala"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/texthakgala"
+                android:src="@drawable/hakgala"
+                android:onClick="hakgala"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Rassagala"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textrassa"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textrassa"
+                android:layout_toLeftOf="@+id/rassagala"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Rajagala, commonly Rassaagala or Rajagalathenna, is a rugged and heavily forested mountain situated 1,038 feet above sea level, in a sparsely populated part of Eastern Province, Sri Lanka which has an important archaeological value."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/rassagala"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/textrassa"
+                android:src="@drawable/rassagala"
+                android:onClick="rassa"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Lovers Peak"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textlove"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlove"
+                android:layout_toLeftOf="@+id/love"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Adara Kanda (Lover’s Peak) is a mountain situated near Belihuloya in the Sabaragamuwa Province of Sri Lanka. It stands at an elevation of 1500 m. The peak is very famous for hiking and camping. It is surrounded by picturesque views of the Sabaragamuwa Province including the Sabaragamuwa University and the Samanalawewa Dam. The mountain is also known as “Paraviyangala”."/>
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/love"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/textlove"
+                android:src="@drawable/adara_kanda"
+                android:onClick="adara"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

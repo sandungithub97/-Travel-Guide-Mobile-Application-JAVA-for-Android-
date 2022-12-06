@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".religion"
+    android:background="@drawable/backgrnd1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Religious Places In Sri Lanka"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Temple of the Sacred Tooth"
+                android:textAlignment="center"
+                android:layout_marginRight="0dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_toLeftOf="@+id/image1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Sri Dalada Maligawa is the Sinhalese name for this holy shrine. Famously called Temple of the Sacred Tooth Relic, it is touted to be the most sacred Buddhist temple in the whole world. It houses the tooth of Buddha nestled in a golden chamber"
+                />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text1"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-3dp"
+                android:layout_marginRight="-1dp"
+                android:onClick="temple"
+                android:src="@drawable/temple" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Gangaramaya Temple"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:layout_toLeftOf="@+id/image2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The Gangaramaya Temple is a unique blend of architecture and culture and a place for Buddhist learning and worship. It also effectively takes part in social welfare. It was built first in the 19th century and started by the famous scholar-monk Hikkaduwe Sri Sumangala Nayaka Thera"
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image2"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text2"
+                android:src="@drawable/gangaramaya"
+                android:onClick="ganga"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Jetavanarama "
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text3"
+                android:layout_toLeftOf="@+id/image3"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="Jetavanaramaya monastery is one of the largest monasteries in the heritage city of Anuradhapura in Sri Lanka. This magnificent structure was the third-largest structure in the ancient world."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image3"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text3"
+                android:src="@drawable/jetawana"
+                android:onClick="jeta"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sri Maha Bodhi"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text4"
+                android:layout_toLeftOf="@+id/image4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The Jaya Sri Maha Bodhi is one of the most ancient trees which are living even today standing tall in the Mahamewna Gardens in Anuradhapura in Sri Lanka. The tree is believed to have sprouted from a cutting brought from Bodh Gaya in India,"
+                />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image4"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text4"
+                android:src="@drawable/sri_maha_bodi"
+                android:onClick="srimaha"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Dutch Reformed Church"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:layout_toLeftOf="@+id/image5"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The Dutch Reformed Church, also known as De Groote Kerk, is a church located inside the Galle Fort. Built in 1755, it is the oldest Protestant church in Sri Lanka and continues to be in use today."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image5"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text5"
+                android:src="@drawable/dutch"
+                android:onClick="dutch"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Abhayagiri Vihara"
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text6"
+                android:layout_toLeftOf="@+id/image6"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The Abhayagiri Vihara is one of the most beautiful and exciting structures which is in the atmospheric setting of Anuradhapura. The grand scale of the monastery ruins is genuinely breathtaking and can be viewed at any time,"
+                />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image6"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text6"
+                android:src="@drawable/abhayagiri"
+                android:onClick="abaya"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Seeta Amman Temple "
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text7"
+                android:layout_toLeftOf="@+id/image7"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The Seetha Amman Temple is a small temple located in the village of Seetha Eliya in Sri Lanka. It is about a kilometre away from the Hakgala Botanical Gardens, and about 5 to 6 kilometres away from the central city of Nuwara Eliya. "
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image7"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text7"
+                android:src="@drawable/seeta_amman"
+                android:onClick="seeta"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Dambulla Cave Temple "
+                android:textAlignment="center"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text8"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text8"
+                android:layout_toLeftOf="@+id/image8"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text="The Dambulla Cave Temple also called the Golden Temple of Dambulla is a UNESCO World Heritage Site located in the Matale District, in the central province of Sri Lanka. It is the best-preserved and most extensive cave temple complex of the country comprising of five main caves."
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:id="@+id/image8"
+                android:layout_alignParentRight="true"
+                android:layout_height="140dp"
+                android:layout_below="@+id/text8"
+                android:src="@drawable/dambulla"
+                android:onClick="dambulla"
+                />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
